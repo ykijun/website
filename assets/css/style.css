@@ -1,0 +1,52 @@
+.nav{
+  height: 50px;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+}
+.nav_right-items{
+  display: flex;
+  margin-left: auto;
+}
+.nav-item{
+  margin-left: 10px;
+}
+
+.myname{
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.main{
+  width: 800px;
+  height: 400px;
+}
+.title{
+  font-size: 30px;
+  height: 50px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.subtitle{
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+}
+.sec1{
+  height: 600px;
+}
+.sec2{
+  height: 600px;
+}
+.sec3{
+  height: 600px;
+}
+.sec4{
+  height: 600px;
+}
+.sec5{
+  height: 600px;
+}
