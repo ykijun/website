@@ -1,81 +1,253 @@
 <!DOCTYPE html>
-<html class="no-js" lang="ko">
-<head>
-	<meta charset = "UTF-8">
-	<title>Kijun's Portfolio</title>
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-	<meta http-equiv= 'X-UA-Compatible' content='IE=edge'>
-	<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1, minimum-scale=1, maximum-sacle=1,user-scalable=no"
-	<meta name="description" contents="kijun's portfolio">
-	<meta name="keywords" contents="">
-	<meta name="title" contents="">
-	<meta name="publisher" contents="Kijun YU">
-</head>
-<body>
-  <div class="nav">
-    <div class="myname"> Kijun, Yu </div>
-    <div class="nav_right-items">
-      <div class ="nav-item"><a href="#sec1"> profile </a></div>
-      <div class ="nav-item"><a href="#sec2"> education </a></div>
-      <div class ="nav-item"><a href="#sec3"> experience </a></div>
-      <div class ="nav-item"><a href="#sec4"> skills </a></div>
-      <div class ="nav-item"><a href="#sec5"> contacts </a></div>
-    </div>
-  </div>
-  <div class = "main">
-    <div class="title">
-      Kijun's portpolio 
-    </div>
-    <div class="subtitle">
-      웹디자인은 언제따고 그림이랑 사진도 넣어야하는데 계속해서 업데이트 하다 보면 언젠간 완성되겠지 빨리 내용도 채워넣고 해야하는데
-    </div>
-  </div>
-  <div class = "sections">
-    <section id = "section1" >
-      <div class="sec1" id="sec1">
-        여기는 내정보 (이름 나이 등 기본정보)
-      </div>
-    </section>
-    <section id = "section2">
-      <div class="sec2" id="sec2">
-        여기는 내학력 (당연히 과기대겠쥬?)
-        <ol>
-          <li> 일단 고교학력</li>
-          <li> 과기대 컴엔지</li>
-        </ol>
-      </div>
-    </section>
-    <section id = "section3">
-      <div class="sec3" id="sec3">
-        여기는 내 경험 (프로젝트 관련)
-        <ul>
-          <li> 일단 comp2011 pa들</li>
-          <li> 그리고 comp2012 pa들</li>
-          <li> 파이썬 어싸? 데이터 마이닝</li>
-          <li> java 어싸도 얘는 OOP</li>
-          <li> 4410 VLSI 논문도 올릴까 ㅋㅋㅋ</li>
-          <li> 병역여부는 따로 하는게 맞을라나..</li>
-        </ul>
-      </div>
-    </section>
-    <section id = "section4">
-      <div class="sec4" id="sec4">
-        여기는 내 스킬 (코딩관련 스킬)
-        <div>C++ 잘함</div>
-        <div>Java 적당</div>
-        <div>파이썬 배웠음</div>
-        <div>SQL 얘도 배움</div>
-        <div>html 할줄아니까 이거 만들었겠쥬?</div>
-      </div>
-    </section>
-    <section id = "section5">
-      <div class="sec5" id="sec5">
-        여기는 내연락처 (스팸하지는 말고)
-        <div>Tel: 010-3463-9669</div>
-        <div>Address : 경기도 용인시 기흥구 강남동로 128 한라비발디@ 905동 2302호</div>
-      </div>
-    </section>
-  </div> 
+<html lang="ko">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content= width=device-width, initial-scale=1 >
+        <title>Kijun Yu</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" />
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <header>
+            <div class="menu-toggler">
+                <div class= "bar half start"></div>
+                <div class= "bar"></div>
+                <div class= "bar half end"></div>
+            </div>
+            <nav class="top-nav">
+                <ul class ="nav-list">
+                    <li>
+                        <a href="index.html" class = "nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class = "nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#services" class = "nav-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class = "nav-link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#experience" class = "nav-link">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class = "nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class ="landing-text">
+                <h1>Kijun Yu</h1>
+                <h6>sw programmer / back-end </h6>
+            </div>
+        </header>
 
-</body>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                    <img src="images/profile.jpeg" alt="">
+                </div>
+                <div class="about-details" data-aos="fade-left" data-aos-delay="300">
+                    <div class="about-heading">
+                        <h1>About</h1>
+                        <h6>Myself</h6>
+                    </div>
+                    <p>
+                        한국에서 태어나.
+                        인도로 유학후.
+                        홍콩에서 재학중인.
+                        더이상의 설명은 생략한다.
+                    </p>
+                    <div class="social-media">
+                        <ul class= "nav-list">
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <i class="fab fa-instagram-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon-link">
+                                    <i class="fab fa-dribbble-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <div class ="section-heading">
+                    <h1>Services</h1>
+                    <h6>What I can do for you</h6>
+                </div>
+                <div class="my-skills">
+                    <div class="skill"data-aos="fade-in" data-aos-delay="300">
+                        <div class="icon-container">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <h1>C++</h1>
+                        <p>
+                            C++ skills
+                        </p>
+                    </div>
+                    <div class="skill"data-aos="fade-in" data-aos-delay="600">
+                        <div class="icon-container">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h1>JAVA</h1>
+                        <p>
+                            JAVA skills
+                        </p>
+                    </div>
+                    <div class="skill" data-aos="fade-in" data-aos-delay="900">
+                        <div class="icon-container">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h1>Python</h1>
+                        <p>
+                            Python skills
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class ="section-heading">
+                    <h1>Portfolio</h1>
+                    <h6>What I have been doing as a programmer</h6>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="200">
+                        <img src="images/portitem1.jpeg" alt="">
+                    </div>
+                    <div class="portfolio-description"data-aos="fade-left" data-aos-delay="400">
+                        <h6>School Assignments</h6>
+                        <h1>Programming Assignments</h1>
+                        <p>
+                            2011,2012 projects for c++ coding projects
+                            java assignments and programs
+                            database management with oracle SQL
+                        </p>
+                        <a href ="#" class="cta">View details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right"data-aos="fade-right" data-aos-delay="600">
+                        <h6>projects from school</h6>
+                        <h1>Imbedded System and Circuit Design </h1>
+                        <p>
+                            4410 project (CMOS-VLSI design, research)
+                            3300 projects (imbedded system implementation)
+                        </p>
+                        <a href ="#" class="cta">View details</a>
+                    </div>
+                    <div class="portfolio-img"data-aos="fade-left" data-aos-delay="800">
+                        <img src="images/portitem2.jpeg" alt="">
+                    </div>
+
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right"data-aos="fade-right" data-aos-delay="10500">
+                        <img src="images/portitem3.jpeg" alt="">
+                    </div>
+                    <div class="portfolio-description"data-aos="fade-left" data-aos-delay="1200">
+                        <h6>Data-Mining projects</h6>
+                        <h1>Python programming</h1>
+                        <p>
+                            4331 assignments details
+                        </p>
+                        <a href ="#" class="cta">View details</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="experience" id="experience">
+            <div class="container">
+                <div class ="section-heading">
+                    <h1>Experience</h1>
+                    <h6>회사 등 다양한 경험</h6>
+                </div>
+                <div class="timeline"data-aos="fade-down" data-aos-delay="300">
+                    <ul>
+                        <li class="date" date-date="2015 - present">
+                            <h1>HKUST CPEG</h1>
+                            <p>
+                                과기대 학생
+                                과기대학생
+                            </p>
+                        </li>
+                        <li class="date" date-date="2016.08 - 2018.05">
+                            <h1>군대 (육군병장 만기전역)</h1>
+                            <p>
+                                육훈소 행정병
+                                사무직 + 엑셀함수
+                            </p>
+                        </li>
+                        <li class="date" date-date="2018.06 - 2018.08">
+                            <h1>한솔 생명과학</h1>
+                            <p>
+                                자재 관리 DB
+                                생산 및 출하 관련 DB
+                            </p>
+                        </li>
+                        <li class="date" date-date="2019.05 - present">
+                            <h1>한인회 부회장</h1>
+                            <p>
+                                IVP
+                                각종 이벤트
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class ="section-heading">
+                    <h1>Contact</h1>
+                    <h6>연락 및 문의</h6>
+                </div>
+                <form action=""data-aos="fade-up" data-aos-delay="300">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email..." required>
+                    <label for="email">Services:</label>
+                    <select name="service" id="service">
+                        <option value="">C++/Java</option>
+                        <option value="">Python/SQL</option>
+                    </select>
+                    <label for="subject">Subject:</label>
+                    <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+
+        <footer class="copyright">
+            <div class="up" id="up">
+                <i class ="fas fa-chevron-up"></i>
+            </div>
+            <p>&copy;2020 Kijun YU</P>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="./main.js"></script>
+    </body>
 </html>
