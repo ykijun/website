@@ -286,10 +286,9 @@ li{
     margin-bottom: 0;
 }
 .portfolio-img{
-    width: 50rem;
+    width: 80rem;
     flex: 1;
 }
-
 
 .portfolio-description h1{
     font-size: 3rem;
@@ -303,6 +302,7 @@ li{
     font-weight: 300;
     opacity: 0.3;
 }
+
 .portfolio-description .cta{
     display: inline-block;
     margin-top: 2.5rem;
@@ -444,7 +444,7 @@ input[type="submit"]:hover{
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 600px) and (max-width: 768px){
     body{
         background: url("images/sitebg2.jpg") no-repeat center fixed;
         background-size: cover;
@@ -493,9 +493,24 @@ input[type="submit"]:hover{
     .timeline .date::before{
         left: -20rem;
     }
-    .timeline .date::after{
+    .timeline .date::after {
         left: -5.9rem;
     }
+    .portfolio-description p{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .portfolio-description h1{
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    .container{
+        width: 51rem;
+    }
+    .portfolio-description p{
+        max-width: 25rem;
+    }
+
 }
 
 @media screen and (max-width: 600px){
@@ -514,18 +529,24 @@ input[type="submit"]:hover{
     }
     .about .container{
         flex-direction: column;
-
     }
+
     .profile-img{
         margin: 0 0 7rem 0;
+        order : 1;
+        max-width: 10rem;
     }
     .portfolio-item{
         flex-direction: column;
     }
-    .portfolio-img{
-        margin: 0 0 2rem 0;
-        order: 1;
+    .portfolio.container{
+        flex-direction: column;
     }
+
+    .portfolio-description p{
+        max-width: 30rem;
+    }
+
     .portfolio-description{
         margin: 0;
         order: 2;
@@ -541,5 +562,13 @@ input[type="submit"]:hover{
     }
     .up{
         right: 2rem;
+    }
+    .container{
+        width: 51rem;
+    }
+    .portfolio-img {
+        max-width: 40rem;
+        height: 10rem;
+        order: 1;
     }
 }
