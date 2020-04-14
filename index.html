@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" />
         <link rel="stylesheet" href="main.css" />
+        <?php>
+
     </head>
     <body>
         <header>
@@ -224,15 +226,15 @@
                     <h1>Contact</h1>
                     <h6>연락 및 문의</h6>
                 </div>
-                <form action=""data-aos="fade-up" data-aos-delay="300">
+                <form method="POST" action="query.php" data-aos="fade-up" data-aos-delay="300">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" placeholder="Enter your name..." required>
                     <label for="email">Email:</label>
                     <input type="text" id="email" name="email" placeholder="Enter your email..." required>
-                    <label for="email">Services:</label>
+                    <label for="service">Services:</label>
                     <select name="service" id="service">
-                        <option value="">C++/Java</option>
-                        <option value="">Python/SQL</option>
+                        <option value="">General Query</option>
+                        <option value="">Hiring Suggestion</option>
                     </select>
                     <label for="subject">Subject:</label>
                     <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
