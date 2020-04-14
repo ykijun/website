@@ -29,6 +29,10 @@ p{
 img{
     width: 100%;
 }
+li{
+    font-size: 1.2rem;
+    font-weight: 250;
+}
 
 .container{
     width:90%;
@@ -50,6 +54,33 @@ img{
     margin-bottom: 1rem;
 }
 
+.about-details h2{
+    font-size: 2.1rem;
+    color: rgba(255,255,255, .3);
+    font-weight: 300;
+    position: relative;
+    margin: 2rem 15rem 1.5rem 20rem;
+}
+
+.about-details h3{
+    font-size: 1.8rem;
+    font-weight: 300;
+    position: relative;
+    margin: 5rem 15rem 1.5rem 20rem;
+}
+
+.about-details li{
+    font-size: 1.3rem;
+    margin: .5rem 15rem 1.5rem 20rem;
+}
+.about-details p{
+    font-size: 1.6rem;
+    margin-right: 17rem ;
+    margin-left: 15rem ;
+}
+.section-heading p{
+    font-size: 2rem;
+}
 .section-heading h1::before,
 .section-heading h1::after{
     content: '';
@@ -74,7 +105,7 @@ img{
 
 
 .section-heading h6{
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 300;
 
 }
@@ -180,7 +211,7 @@ li{
 }
 
 .landing-text h1{
-    font-size: 20rem;
+    font-size: 10rem;
     font-family: 'The Historia Demo', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
@@ -223,6 +254,21 @@ li{
 .about-details{
     flex: 1;
 }
+.about-details .cta{
+    display: inline-block;
+    margin-top: 2.5rem;
+    margin-left: 95rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #3883ff;
+    transition:color 650ms;
+    margin-bottom: 15rem;
+}
+.about-details .cta:hover{
+    color: #2f67cd;
+    cursor: pointer;
+}
+
 .social-media{
     margin-top:5rem;
 }
@@ -270,7 +316,7 @@ li{
     transform: rotate(45deg);
 }
 .icon-container i{
-  color: #ffe838;
+    color: #ffe838;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
@@ -285,12 +331,13 @@ li{
 .portfolio-item:last-child{
     margin-bottom: 0;
 }
-.portfolio-img{
+.profile-img{
     width: 50rem;
     flex: 1;
 }
+.portfolio-description p{
 
-
+}
 .portfolio-description h1{
     font-size: 3rem;
     font-weight: 300;
@@ -302,6 +349,19 @@ li{
     text-transform: uppercase;
     font-weight: 300;
     opacity: 0.3;
+}
+.portfolio-description h2{
+    font-size: 2rem;
+    margin: 0 0 3rem 0;
+    font-weight: 300;
+
+}
+.portfolio-description li{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.5;
+
 }
 .portfolio-description .cta{
     display: inline-block;
