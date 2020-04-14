@@ -24,4 +24,13 @@ $(document).ready(function () {
         easing: 'ease',
         duration: 1800
     });
+    $(onsubmit).on('click', function () {
+
+    });
+
 });
+document.getElementById("ct").onsubmit = function() {myFunction()};
+
+function myFunction() {
+    alert("Under construction");
+}
