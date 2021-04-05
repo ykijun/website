@@ -73,6 +73,8 @@ img{
 
 
 
+
+
 .section-heading h6{
     font-size: 1.6rem;
     font-weight: 300;
@@ -367,6 +369,32 @@ li{
     width: 1.5rem;
     background-color: #313534;
 }
+
+.projects h1{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    opacity: .50;
+}
+.projects .p_list{
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    margin-top: 0.5rem;
+
+}
+.projects .cta{
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #3883ff;
+    transition:color 650ms;
+}
+.projects .cta:hover{
+    color: #2f67cd;
+}
+
 
 
 .contact{
